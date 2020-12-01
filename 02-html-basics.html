@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML basics</title>
+</head>
+<body>
+	<header aria-label="header">
+		<p><a href="">Khan Academy</a></p>
+	</header>
+	<nav aria-label="site">
+		<p>Site navigation</p>
+		<ul>
+			<li><a href="">Courses</a></li>
+			<li><input type="search" placeholder="Search" aria-label="Search through site content"></li>
+			<li><a href="">Account</a></li>				
+		</ul>
+	</nav>
+	<nav aria-label="breadcrumbs">
+		<p>Breadcrumbs navigation</p>
+		<ol>
+			<li><a href="">Computing</a></li>
+			<li><a href="">Computer programming</a></li>
+			<li><a href="">Intro to HTML/CSS: Making webpages</a></li>
+			<li><a href="">Intro to HTML</a></li>
+		</ol>
+	</nav>
+	<nav aria-label="lecture">
+		<p>Lecture navigation</p>
+		<ol>
+		    <li><a href="01-welcome-to-the-web.html">Welcome to the web!</a></li>
+		    <li><a href="02-html-basics.html" aria-current="location">HTML basics</a></li>
+		    <li><a href="#">Quick tip: HTML tags</a></li>
+		    <li><a href="#">Challenge: Write a Poem</a></li>
+		    <li><a href="#">HTML: Text emphasis</a></li>
+		    <li><a href="#">Challenge: You can learn text tags</a></li>
+		    <li><a href="#">HTML: Lists</a></li>
+		    <li><a href="#">Challenge: Wishlist</a></li>
+		    <li><a href="#">HTML: Images</a></li>
+		    <li><a href="#">Challenge: A picture-perfect trip</a></li>
+	    </ol>
+	</nav>
+	<main>
+		<h1>HTML basics</h1>
+		<section aria-label="Lecture contents">
+			<h2>Lecture contents</h2>
+			<h3>Introduction</h3>
+			<p>Welcome to my webpage. I know, it's not a very exciting webpage. It's completely blank, but every webpage starts that way, and I'll show you how to build up this page soon. First, though, give a minute to show you around the skeleton of a blank webpage.</p>
+
+			<h3>DOCTYPE</h3>
+			<p>Every webpage starts with this fun looking thing called a DOCTYPE at the top, and this is just a signal to the browser that this webpage is written in modern HTML and not a cludgy, old, weird HTML.</p>
+			
+			<h3>Tag</h3>
+			<p>Next, to the very first tag of the page, HTML is a markup language, so it's all about tags, and a tag is one of these things that start with an angle bracket and ends with another angel bracket, or if you like math, you might think of them as less than and greater than signs.</p>
+
+			<h3>HTML tag</h3>
+			<p>The first tag of every page is always that HTML tag right under the DOCTYPE. This one is the start HTML tag, and then at the bottom there's this end HTML tag, which is the same except for this backslash, which is really important. The HTML tag needs to contain every other tag that makes up this webpage, and that's why we don't have the end HTML tag until the bottom. A lot of HTML tags come in pairs like this, but not all of them.</p>
+
+			<h3>head tag</h3>
+			<p>O.K., underneath HTML there is always head tag, and that contains tags that helps the browser render the page, but doesn't contain anything the user actually sees.</p>
+
+			<h3>meta tag</h3>
+			<p>There's this meta tag that gives the browser more details on how to render the page. For example, if you're using common characters, like from English language, and not harder to render characters, like from the Arabic language, then you should have meta charset equals utf eight.</p>
+
+			<h3>title tag</h3>
+			<p>Then there's this title tag, which the browser uses to decide the title of the page, and this is what shows in the tab on top of browsers and in bookmarks and in search results, and here on Khan Academy the title shows up above our webpage.</p>
+
+			<h3>changing the title</h3>
+			<p>Let me change the title. I'm going to make a page all about rabbits, so I'll say all about rabbits, and maybe you can actually see as it changes above. Nice.</p>
+
+			<h3>body tag</h3>
+			<p>O.K, now we're done with these details, so we end the head tag and move on to the tag where it's all going to happen. The body tag.</p>
+
+			<h3>h tag</h3>
+			<p>It's pretty boring right now. Just the start and the end. O.K., what should I add? Well, I'm making a webpage about rabbits, so I should probably declare that in a big, old headline at the top. To add a headline we use the H one tag, and all about rabbits. Great.</p>
+			<p>Actually, we have six tags that we could use for headlines. H one, H two, H three, H four, H five, and H six. The H one is for the most important headlines on the page, and H six is the least important.</p>
+			<p>Let me add a few more headlines for other sections, and I'll use an H two since these are slightly less important sections, and add some songs, O.K., great.</p>
+
+			<h3>p tag</h3>
+			<p>Now let's add some information. Well, my target audience for this page is aliens that have never seen rabbits, so I better give them a good description of rabbits. In fact, I think I need a whole paragraph of information. How can I mark up a paragraph in HTML? With the P tag, of course, so we put in a P tag, and then I'm just going to go ahead and paste in information, so that you don't have to watch me type the whole thing. Beautiful.</p>
+			<p>Alright, now the aliens will need a song to greet the rabbits with, so I'll give them lyrics to my personal favorite, and once again use that P tag for it, and paste in the song ♫ Little Bunny Foo Foo ♫ Such a good song.</p>
+
+			<h3>br tag</h3>
+			<p>But, uh oh. It's showing up all on the same line. How will the aliens know when to pause? Why didn't the browser render the line breaks that I put in here? Well, actually, browsers mostly ignore line breaks and white space in your HTML, and if we want the browser to render a line break, we have to tell it explicitly using another tag, the B R tag, which stands for break, so we'll go through and add B R's after each line. Now it looks like lyrics.</p>
+			<p>Do you notice something funny about B R? There's no end tag. Well, if you think about it, a line break doesn't contain any content, so it has nothing to end after. Just the start tag is all we need, and there we have it.</p>
+
+			<h3>Conclusion</h3>
+			<p>The aliens will learn the basics of rabbits, and you've learned the basics of HTML. After I'm done talking, play around with this and try changing things, and when you are ready, go on to your first HTML challenge.</p>
+
+			<h2>Lecture video</h2>
+			<p>Go to <a href="https://www.youtube.com/embed/ItZN6o0ylao" target="_blank">the lecture video on YouTube</a>.</p>
+		</section>
+
+
+		<section aria-label="Discussion forums">
+			<h2>Discussion forums</h2>
+			<p>Go to <a href="#">discussion forums</a></p>
+		</section>
+
+		<section title="Report accessibility issue">
+			<h2>Report accessibility issue</h2>
+			<form id="send-comment" aria-label="Please describe the accessibility issue">
+				<label for="comment">Comment</label>
+				<input type="textarea" id="comment" aria-label="Please describe the accessibility issue"></textarea>
+				<input type="submit" value="Submit" onclick="alert('Thank you for submitting your feedback!')">
+			</form>
+		</section>
+
+	</main>
+
+	<footer aria-label="footer">
+		<p>About</p>
+		<ul>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Impact</a></li>
+			<li><a href="#">Our team</a></li>
+			<li><a href="#">Our interns</a></li>
+			<li><a href="#">Our content specialists</a></li>
+			<li><a href="#">Our leadership</a></li>
+			<li><a href="#">Our supporters</a></li>
+			<li><a href="#">Our contributors</a></li>
+			<li><a href="#">Our finances</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Internships</a></li>
+		</ul>
+		<p>Contact</p>
+		<ul>
+			<li><a href="#">Help center</a></li>
+			<li><a href="#">Support community</a></li>
+			<li><a href="#">Share your story</a></li>
+			<li><a href="#">Press</a></li>
+		</ul>
+		<p>Download our apps</p>
+		<ul>
+			<li><a href="#">iOS app</a></li>
+			<li><a href="#">Android app</a></li>
+		</ul>
+		<p>Courses</p>
+		<ul>
+			<li><a href="#">Math: Pre-K - 8th grade</a></li>
+			<li><a href="#">Math: Get ready courses</a></li>
+			<li><a href="#">Math high school & college</a></li>
+			<li><a href="#">Test prep</a></li>
+			<li><a href="#">Science</a></li>
+			<li><a href="#">Computing</a></li>
+			<li><a href="#">Arts & humanities</a></li>
+			<li><a href="#">Economics</a></li>
+			<li><a href="#">Reading & language arts</a></li>
+			<li><a href="#">Life skills</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

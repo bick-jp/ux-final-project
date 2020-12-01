@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to the web!</title>
+</head>
+<body>
+	<header aria-label="header">
+		<p><a href="">Khan Academy</a></p>
+	</header>
+	<nav aria-label="site">
+		<p>Site navigation</p>
+		<ul>
+			<li><a href="">Courses</a></li>
+			<li><input type="search" placeholder="Search" aria-label="Search through site content"></li>
+			<li><a href="">Account</a></li>				
+		</ul>
+	</nav>
+	<nav aria-label="breadcrumbs">
+		<p>Breadcrumbs navigation</p>
+		<ol>
+			<li><a href="">Computing</a></li>
+			<li><a href="">Computer programming</a></li>
+			<li><a href="">Intro to HTML/CSS: Making webpages</a></li>
+			<li><a href="">Intro to HTML</a></li>
+		</ol>
+	</nav>
+	<nav aria-label="lecture">
+		<p>Lecture navigation</p>
+		<ol>
+		    <li><a href="01-welcome-to-the-web.html" aria-current="location">Welcome to the web!</a></li>
+		    <li><a href="02-html-basics.html">HTML basics</a></li>
+		    <li><a href="#">Quick tip: HTML tags</a></li>
+		    <li><a href="#">Challenge: Write a Poem</a></li>
+		    <li><a href="#">HTML: Text emphasis</a></li>
+		    <li><a href="#">Challenge: You can learn text tags</a></li>
+		    <li><a href="#">HTML: Lists</a></li>
+		    <li><a href="#">Challenge: Wishlist</a></li>
+		    <li><a href="#">HTML: Images</a></li>
+		    <li><a href="#">Challenge: A picture-perfect trip</a></li>
+	    </ol>
+	</nav>
+	<main>
+		<h1>Welcome to the web!</h1>
+		<section aria-label="Lecture contents">
+			<h2>Lecture scripts</h2>
+			<h3>Introduction</h3>
+			<p>Welcome, let's talk about the web, the thing that you're using right now. The web is this fast network of connected computers, and as of 2014, there are literally more than a billion websites - a billion! When I was a kid, we only had one million, and we thought we were cool. What do we use websites for? Well in the beginning, researchers used websites to share their research, like on high-energy particle colliders. But now everybody uses it for pretty much everything. Maybe you use a social network to chat with your family, a photo website for sharing photos of your adorable kitty cats, a travel website to decide where to go on an exotic trip, or a news website to figure out what's going on in the world. And of course, you must be using the Khan Academy website to learn. So what's your favorite website? Actually, I have a better question. What website do you wish existed, but doesn't yet? Maybe a website about yourself or about something that you love? The cool thing is you can program a website yourself, and you can learn how to do it here on Khan Academy. Start brainstorming what you want to make because you'll be able to do it soon enough.</p>
+			<h3>Terminology</h3>
+			<p>First, let's back up a bit and clear up some terminology.</p>
+			<h4>What is the web?</h4>
+			<p>What is the "web," exactly? Well, like I said, it's a bunch of connected computers that have websites.</p>
+			<h4>What is the server?</h4>
+			<p>When a computer is connected to the web and spitting out a website, we call that computer a "server" because it's "serving" the website.</p>
+			<h4>What languages are used in a website?</h4>
+			<p>A website is written using three languages: HTML, for marking up the website content; CSS, for styling it; and JavaScript, for making it interactive.</p>
+			<h4>What is the web browser?</h4>
+			<p>How do users like you actually see those websites? Well you use an app dedicated for website browsing, like Chrome, Firefox, or Internet Explorer, and we call those apps "browsers." Browsers try to all show the same website the same way, but they do have their differences, which is why we sometimes say, "Oops, there's a bug in that browser. "Try another one." Which browser are you using right now?</p>
+			<h4>What is the client?</h4>
+			<p>Well you must be using that browser from some sort of device, like a laptop, phone, tablet, or even a smart TV, and we call those devices "clients." Clients can be really different. Some are way smaller than others, some have touchscreens, others have keyboards, some are black and white. So websites have to try to work well in all sorts of clients. What client are you using right now?</p>
+			<h3>Conclusion</h3>
+			<p>And that's the web. Well, the two-minute version. There's lots more to learn about the web, but now I think it's about time to start having you write some HTML and CSS to make your own web pages.</p>
+
+			<h2>Lecture video</h2>
+			<p>Go to <a href="https://youtu.be/jHPr-CuvHhs" target="_blank">the lecture video on YouTube</a>.</p>
+		</section>
+
+		<section aria-label="Discussion forums">
+			<h2>Discussion forums</h2>
+			<p>Go to <a href="#">discussion forums</a>.</p>
+		</section>
+
+		<section title="Report accessibility issue">
+			<h2>Report accessibility issue</h2>
+			<form id="send-comment" aria-label="Please describe the accessibility issue">
+				<label for="comment">Comment</label>
+				<input type="textarea" id="comment" aria-label="Please describe the accessibility issue"></textarea>
+				<input type="submit" value="Submit" onclick="alert('Thank you for submitting your feedback!')">
+			</form>
+		</section>
+
+	</main>
+
+	<footer aria-label="footer">
+		<p>About</p>
+		<ul>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Impact</a></li>
+			<li><a href="#">Our team</a></li>
+			<li><a href="#">Our interns</a></li>
+			<li><a href="#">Our content specialists</a></li>
+			<li><a href="#">Our leadership</a></li>
+			<li><a href="#">Our supporters</a></li>
+			<li><a href="#">Our contributors</a></li>
+			<li><a href="#">Our finances</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Internships</a></li>
+		</ul>
+		<p>Contact</p>
+		<ul>
+			<li><a href="#">Help center</a></li>
+			<li><a href="#">Support community</a></li>
+			<li><a href="#">Share your story</a></li>
+			<li><a href="#">Press</a></li>
+		</ul>
+		<p>Download our apps</p>
+		<ul>
+			<li><a href="#">iOS app</a></li>
+			<li><a href="#">Android app</a></li>
+		</ul>
+		<p>Courses</p>
+		<ul>
+			<li><a href="#">Math: Pre-K - 8th grade</a></li>
+			<li><a href="#">Math: Get ready courses</a></li>
+			<li><a href="#">Math high school & college</a></li>
+			<li><a href="#">Test prep</a></li>
+			<li><a href="#">Science</a></li>
+			<li><a href="#">Computing</a></li>
+			<li><a href="#">Arts & humanities</a></li>
+			<li><a href="#">Economics</a></li>
+			<li><a href="#">Reading & language arts</a></li>
+			<li><a href="#">Life skills</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
